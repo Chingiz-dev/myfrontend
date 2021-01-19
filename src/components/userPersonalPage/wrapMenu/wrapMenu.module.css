@@ -1,0 +1,16 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .menuWrap{
+        display: none;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .menuWrap{
+        display: none;
+    }
+}

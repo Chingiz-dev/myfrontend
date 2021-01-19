@@ -1,0 +1,136 @@
+.itemOrder{
+    padding: 15px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-top: 10px;
+    font-size: 14px;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.item1{
+    width: 185px;
+    composes: center;
+}
+.item2{
+    width: 232px;
+    composes: center;
+
+}
+.item3{
+    width: 206px;
+    composes: center;
+
+}
+.item4{
+    width: 357px;
+    display: flex;
+    flex-direction: column;
+    composes: center;
+    align-items: flex-start;
+
+}
+.item5{
+    width: 147px;
+    composes: center;
+
+}
+.item6{
+    width: 73px;
+    composes: center;
+    justify-content: center;
+    position: relative;
+}
+.item6:hover{
+    cursor: pointer;
+}
+.hideContex{
+    display: none;
+    position: absolute;
+    top: -30px;
+    right: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ADADAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 80px;
+    height: 79px;
+    padding: 15px 65px 15px 15px;
+    line-height: 20px;
+    z-index: 150;
+}
+.showContex{
+    display: block;
+    composes: hideContex;
+}
+
+.green{
+    color: #14FF00;
+}
+.blue{
+    color: #00C2FF;
+}
+.red{
+    color: #FF0000;
+}
+.grey{
+    color: #00AFA5;
+}
+.orange{
+    color: #FF7A00;
+}
+
+@media (max-width: 768px) {
+    .itemOrder{
+        width: 1230px;
+        box-sizing: border-box;
+        height: 74px;
+        padding: 0;
+    }
+    .item1{
+        margin-left: 15px;
+    }
+    .item4{
+        margin-top: 15px;
+    }
+    .item6{
+        position: sticky;
+        right: -2px;
+        background: #FFFFFF;
+        box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.08);
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 74px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .itemOrder{
+        width: 1230px;
+        box-sizing: border-box;
+        height: 74px;
+        padding: 0;
+    }
+    .item6{
+        position: sticky;
+        right: -2px;
+        background: #FFFFFF;
+        box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.08);
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 74px;
+    }
+    .item1{
+        margin-left: 15px;
+    }
+    .item4{
+        margin-top: 15px;
+    }
+}

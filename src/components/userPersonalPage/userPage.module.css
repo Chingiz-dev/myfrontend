@@ -1,0 +1,31 @@
+.userPage{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.mainContent{
+    padding-top: 50px;
+    flex: 1 0 auto;
+    margin: 0 auto;
+    display: flex;
+    width: 88%;
+}
+
+@media (max-width: 768px) {
+    .userPage{
+        height: 100%;
+    }
+    .menuWrap{
+        display: none;
+    }
+    .mainContent{
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px) {
+    .menuWrap{
+        display: none;
+    }
+}

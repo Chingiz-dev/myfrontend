@@ -1,0 +1,29 @@
+.menu{
+    height: 100%;
+    width: 315px;
+    background-color: #FFFFFF;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-right: 1px solid #C7C7C7;
+    box-sizing: border-box;
+}
+.link{
+    margin-top: 30px;
+}
+.link:first-child{
+    margin-top: 0px;
+}
+
+@media (max-width: 768px){
+    .menu{
+        width: 252px;
+    }
+}
+
+@media (max-width: 375px){
+    .menu{
+        width: 100%;
+        border-right: none;
+        height: 321px;
+    }
+}

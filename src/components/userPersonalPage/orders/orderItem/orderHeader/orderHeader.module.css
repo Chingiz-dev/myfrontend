@@ -1,0 +1,19 @@
+.orderHeader{
+    background: #E0E0E0;
+    height: 65px;
+    padding: 20px 16px 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.status{
+    color: #767676;
+    font-size: 14px;
+}

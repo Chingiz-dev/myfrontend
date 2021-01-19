@@ -1,0 +1,32 @@
+.wrapper{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EBEBEB;
+    height: 247px;
+    display: flex;
+}
+.test{
+    width: 100%;
+    border: 1px solid black;
+}
+.img{
+    width: 129px;
+    height: 207px;
+}
+.content{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 375px){
+    .wrapper{
+        padding: 10px;
+        height: auto;
+    }
+    .content{
+        width: 200px;
+    }
+}

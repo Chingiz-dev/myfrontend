@@ -1,0 +1,25 @@
+.menu{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+    width: 100vhnpm;
+    height: 100vh;
+
+}
+.list{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.item{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 219.5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

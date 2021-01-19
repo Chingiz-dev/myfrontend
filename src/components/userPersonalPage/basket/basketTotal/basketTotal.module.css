@@ -1,0 +1,15 @@
+.wrapper{
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 390px;
+    height: 316px;
+    box-sizing: border-box;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+   border-bottom: 1px solid #EBEBEB;
+}

@@ -1,0 +1,11 @@
+.wrapper{
+    width: 100%;
+}
+.content{
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 36px;
+}

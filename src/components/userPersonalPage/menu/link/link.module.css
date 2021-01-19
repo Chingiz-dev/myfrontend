@@ -1,0 +1,8 @@
+.link{
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+.title{
+    margin-left: 17px;
+}

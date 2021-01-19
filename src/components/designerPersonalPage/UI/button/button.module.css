@@ -1,0 +1,15 @@
+.btn{
+    background: #EE2A7B;
+    border-radius: 4px;
+    padding: 12px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

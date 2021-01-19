@@ -1,0 +1,13 @@
+.info{
+    width: 246px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 165%;
+}
+.email{
+    color: #888888;
+    font-size: 16px;
+}
+

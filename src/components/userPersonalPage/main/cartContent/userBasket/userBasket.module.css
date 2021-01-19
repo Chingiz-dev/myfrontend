@@ -1,0 +1,21 @@
+.img{
+    width: 65px;
+    height: 104px;
+}
+.info{
+    display: flex;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.orderInfo{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+.wrapper:first-child{
+    margin-top: 0;
+}

@@ -1,0 +1,95 @@
+.footer{
+    background-color: #000000;
+    padding-top: 49px;
+    padding-left: 105px;
+    margin-top: 78px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cols{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    line-height: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.icons{
+    flex-basis: 100%;
+}
+.icon{
+    margin-right: 24px;
+}
+.protect{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.jsCorpImg{
+    padding-right: 10%;
+}
+
+@media (max-width: 768px) {
+    .info{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        padding: 29px 39px 18px 39px;
+    }
+    .cols{
+        padding: 0;
+        margin-top: 32px;
+        width: 100%;
+    }
+    .icons{
+        flex-basis: 0;
+        display: flex;
+        margin-top: 35px;
+    }
+    .social{
+        flex-basis: 50%;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 376px) {
+    .item3{
+        margin-top: 50px;
+    }
+    .social{
+        flex-basis: 100%;
+    }
+    .protect{
+        display: flex;
+        flex-direction: column;
+        margin-top: 82px;
+    }
+    .jsCorpImg{
+        margin-top: 30px;
+    }
+    .masterCard{
+        width: 25px;
+        height: 16px;
+    }
+    .visa{
+        width: 28px;
+        height: 18px;
+    }
+    .yandex{
+        width: 55px;
+        height: 16px;
+    }
+}

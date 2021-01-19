@@ -1,0 +1,21 @@
+.showElseBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.showElseBtn:hover{
+    cursor: pointer;
+}
+
+/*@media(max-width:768px){*/
+/*    .showElseBtn{*/
+/*        width: 51%;*/
+/*    }*/
+/*}*/

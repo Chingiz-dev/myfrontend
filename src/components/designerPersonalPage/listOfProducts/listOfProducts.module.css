@@ -1,0 +1,107 @@
+.title{
+    margin-top: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.listBlock{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.searchAndCategory{
+    margin-top: 21px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    box-sizing: border-box;
+}
+.category{
+    display: flex;
+    padding-top: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
+.listCategory{
+    display: flex;
+    justify-content: space-around;
+}
+.listCategory li {
+    margin-left: 54px;
+}
+.listProducts{
+    margin-top: 10px;
+}
+
+.numberPages{
+    margin-top: 10px;
+}
+.checkBox{
+    display: flex;
+    align-items: center;
+}
+.btnPoint{
+    display: none;
+}
+.plug{
+    display: none;
+}
+
+@media (max-width: 1024px){
+    .listBlock{
+        padding: 0 30px;
+    }
+    .scroll{
+        width: 100%;
+        overflow: scroll;
+        box-sizing: border-box;
+        padding: 0 2px;
+    }
+    .searchAndCategory{
+        width: 1230px;
+    }
+    .plug{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 180px;
+        width: 35px;
+        height: 110px;
+        background: #FFFFFF;
+        box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.08);
+    }
+}
+
+
+
+@media (max-width: 768px){
+    h2{
+        font-size: 24px;
+    }
+    .scroll{
+        width: 100%;
+        overflow: scroll;
+        box-sizing: border-box;
+        padding: 0 2px;
+    }
+    .searchAndCategory{
+        width: 1230px;
+    }
+    .btn{
+        display: none;
+    }
+    .btnPoint{
+        display: block;
+    }
+    .plug{
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 180px;
+        width: 35px;
+        height: 110px;
+        background: #FFFFFF;
+        box-shadow: -2px 0px 8px rgba(0, 0, 0, 0.08);
+    }
+
+}

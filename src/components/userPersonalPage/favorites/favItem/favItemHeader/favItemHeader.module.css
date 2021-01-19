@@ -1,0 +1,26 @@
+.wrapper{
+    width: 100%;
+    padding-left: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.title, .price{
+    font-weight: bold;
+}
+
+.designer{
+    font-size: 12px;
+}
+
+@media (max-width: 375px){
+    .wrapper{
+        flex-direction: column;
+        height: 195px;
+        justify-content: space-between;
+    }
+}

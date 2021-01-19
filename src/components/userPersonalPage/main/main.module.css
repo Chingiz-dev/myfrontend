@@ -1,0 +1,33 @@
+.wrapper{
+    width: 100%;
+}
+.title{
+    margin-left: 69px;
+}
+.carts{
+    display: flex;
+    margin-left: 69px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:44px;
+}
+
+@media (max-width: 768px) {
+    .carts{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .title{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .carts{
+        margin-left: 0;
+    }
+    .title{
+        margin-left: 0;
+    }
+}

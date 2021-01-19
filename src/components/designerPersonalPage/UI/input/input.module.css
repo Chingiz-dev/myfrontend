@@ -1,0 +1,18 @@
+.label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+.input{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 38px;
+    padding: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

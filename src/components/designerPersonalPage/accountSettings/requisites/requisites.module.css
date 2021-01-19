@@ -1,0 +1,25 @@
+.req{
+    background-color: #FFFFFF;
+    width: 525px;
+    padding: 30px 92px 30px 30px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.btn{
+    margin-top: 55px;
+}
+
+@media (max-width: 768px){
+    .req{
+        padding: 30px;
+        width: 438px;
+    }
+}
+
+@media (max-width: 375px) {
+    .req{
+        width: 345px;
+        padding: 5px;
+    }
+
+}

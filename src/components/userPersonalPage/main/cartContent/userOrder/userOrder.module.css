@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.status{
+    color: #00D535;
+}
+.wrapper:first-child{
+    margin-top: 0;
+}

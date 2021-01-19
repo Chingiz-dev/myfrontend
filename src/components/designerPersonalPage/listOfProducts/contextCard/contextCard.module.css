@@ -1,0 +1,203 @@
+.addProductBlock{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 5px;
+    z-index: 3;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -30%);
+    width: 458px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 30px 28px 30px;
+    overflow: scroll;
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+}
+.image{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #8E8E8E;;
+    color: #8E8E8E;
+}
+.itemMenu1{
+    flex-basis: 20%;
+}
+.itemMenu1:hover{
+    border-bottom: 2px solid #000000;
+    color: black;
+    cursor: pointer;
+}
+.itemMenu2{
+    display: flex;
+    justify-content: center;
+    flex-basis: 80%;
+}
+.itemMenu2:hover{
+    border-bottom: 2px solid #000000;
+    color: black;
+    cursor: pointer;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.sizes{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.sizes span{
+    font-size: 16px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 27px;
+    align-items: center;
+}
+.btn span{
+    margin-left: 65px;
+}
+.closeIcon{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+
+
+.modify{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.modifyPhoto{
+    height: 121px;
+    width: 93px;
+    background: #EEEFEA;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.removePhoto{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.removePhoto:hover{
+    cursor: pointer;
+}
+.deleteBtn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8D8D8D;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .addProductBlock{
+        position: static;
+        transform: none;
+        height: auto;
+        width: 690px;
+        box-sizing: border-box;
+    }
+    .closeIcon{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 375px){
+    .addProductBlock{
+        position: static;
+        transform: none;
+        height: auto;
+        width: 343px;
+        box-sizing: border-box;
+    }
+    .closeIcon{
+        display: none;
+    }
+    .image{
+        overflow: scroll;
+    }
+    .image img{
+        margin-left: 10px;
+    }
+    .addProductBlock{
+        padding: 0 20px;
+    }
+    .itemMenu1{
+        flex-basis: 30%;
+    }
+    .itemMenu2{
+        flex-basis: 70%;
+    }
+}
+
+@media (max-width: 320px){
+    .addProductBlock{
+        position: static;
+        transform: none;
+        height: auto;
+        width: 300px;
+        box-sizing: border-box;
+    }
+    .closeIcon{
+        display: none;
+    }
+    .image{
+        overflow: scroll;
+    }
+    .image img{
+        margin-left: 10px;
+    }
+    .addProductBlock{
+        padding: 0 20px;
+    }
+    .itemMenu1{
+        flex-basis: 30%;
+    }
+    .itemMenu2{
+        flex-basis: 70%;
+    }
+}

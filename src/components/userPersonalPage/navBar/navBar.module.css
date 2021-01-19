@@ -1,0 +1,91 @@
+.nav{
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+}
+.logo{
+    margin-left: 90px;
+}
+.blockLinks{
+    display: flex;
+    align-items: center;
+}
+.links{
+    display: flex;
+    margin-left: 33px;
+}
+.search{
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 92px;
+}
+.icons img{
+    margin-right: 32px;
+}
+.burger{
+    display: none;
+}
+.adaptiveIcons{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .logo{
+        width: 97px;
+        height: 29px;
+        margin-left: 33px;
+    }
+    .burger{
+        display: block;
+        margin-left: 30px;
+    }
+    .blockLinks{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .adaptiveIcons{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .adaptiveIcons img{
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo{
+        width: 87px;
+        height: 26px;
+        margin-left: 10px;
+    }
+    .adaptiveIcons img{
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .burger{
+        display: block;
+        margin-left: 18px;
+    }
+    .adaptiveIcons{
+        align-items: center;
+    }
+}

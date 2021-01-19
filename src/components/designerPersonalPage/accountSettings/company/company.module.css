@@ -1,0 +1,41 @@
+.company{
+    background-color: #FFFFFF;
+    width: 525px;
+    padding: 30px 92px 30px 30px;
+    box-sizing: border-box;
+}
+.photoInfo{
+    display: flex;
+    font-size: 12px;
+}
+.title{
+    margin-left: 23px;
+    font-size: 16px;
+}
+.photoInfo ul {
+    margin-left: 23px;
+    margin-top: 5px;
+}
+.mini{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn{
+    margin-top: 50px;
+}
+
+@media (max-width: 768px){
+    .company{
+        padding: 30px;
+        width: 438px;
+    }
+}
+
+@media (max-width: 375px) {
+    .company{
+        width: 345px;
+        padding: 5px;
+    }
+
+}

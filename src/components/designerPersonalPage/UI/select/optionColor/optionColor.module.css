@@ -1,0 +1,9 @@
+.opColor{
+    display: flex;
+    align-items: center;
+}
+.color{
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+}

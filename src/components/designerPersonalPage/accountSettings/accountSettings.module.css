@@ -1,0 +1,40 @@
+.accSett{
+    margin-top: 46px;
+    padding: 0 39px;
+    overflow: hidden;
+}
+.content{
+    display: flex;
+    margin-top: 32px;
+    height: 100%;
+}
+.test{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+}
+.adaptiveContent{
+    display: none;
+}
+
+
+@media (max-width: 375px){
+    .hideRightBLock{
+        display: none;
+    }
+    .accSett{
+        padding: 0 15px;
+        width: 100%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .content{
+        margin-top: 15px;
+        display: block;
+    }
+    .adaptiveContent{
+        display: block;
+    }
+}

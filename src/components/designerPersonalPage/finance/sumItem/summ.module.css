@@ -1,0 +1,61 @@
+.itemList{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.itemList div {
+    margin-right: 60px;
+}
+
+.item1{
+    color: #14FF00;
+    display: flex;
+}
+
+.itemList p{
+    margin-right: 10px;
+    color: #333333;
+}
+
+.item2,.item3{
+    color: #FF0000;
+    display: flex;
+}
+
+.item4{
+    display: flex;
+}
+
+@media(max-width:768px){
+    .item1,.item2,.item3,.item4{
+        display: block;
+    }
+
+    .itemList div {
+        margin-right: 10px;
+    }
+
+    .itemList p{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:376px){
+    .itemList{
+        flex-wrap: wrap;
+    }
+
+    .itemList p{
+        margin-bottom: 5px;
+    }
+
+    .item1,.item2{
+        margin-bottom: 22px;
+    }
+
+    .item1,.item3{
+        width: 140px;
+    }
+
+}

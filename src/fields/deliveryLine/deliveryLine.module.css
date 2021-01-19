@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    font-size: 14px;
+    height: 28px;
+}
+.line{
+    width: 163px;
+    border-bottom: 1px solid #8E8E8E;
+    text-align: center;
+}
+.line:before{
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #8E8E8E;
+    display: flex;
+    position: relative;
+    top: 23px;
+}
+.line:last-child:after{
+    display: inline-block;
+    content: '';
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #8E8E8E;
+    position: relative;
+    top: 9px;
+    left: 40px;
+}
